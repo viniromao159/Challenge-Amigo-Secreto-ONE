@@ -10,6 +10,19 @@ function adicionarAmigo() {
         friends.push(name);
         document.getElementById('amigo').value='';
     }
-
 }
 
+function sortearAmigo() {
+    if (friends.length < 2) {
+        alert('Insira ao menos dois nomes para realizar o sorteio!')
+    } else {
+        index = parseInt((Math.random() * friends.length));
+         exibirTextoNaTela('resultado', friends[index])
+    }
+}
+
+
+function exibirTextoNaTela(tag, texto){
+    let campo = document.getElementById(tag);
+    campo.innerHTML = texto;
+}
