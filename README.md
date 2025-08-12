@@ -32,9 +32,9 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 
 ### Licença
 
-Projeto: 
+Projeto: Challenge Amigo Secreto - ONE
 
-Por: Challenge Amigo Secreto - ONE
+Por: Vinicius Lopes Romão
 
 [LinkedIn](https://www.linkedin.com/in/viniciuslromao/) / [GitHub](https://github.com/viniromao159) / [Alura](https://cursos.alura.com.br/user/viniromao159) 
 
