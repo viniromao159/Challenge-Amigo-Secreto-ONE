@@ -8,7 +8,19 @@ O usuário deverá adicionar nomes por meio de um campo de texto e de um botão 
 
 Os nomes inseridos serão exibidos em uma lista visível na página, e ao finalizar, um botão "Sortear Amigo" selecionará um dos nomes de forma aleatória, exibindo o resultado na tela.
 
-#### Funcionalidades
+
+
+### 2. Informações
+
+**Projeto base:** HTML & CSS fornecido pelo desafio;
+
+**Repositório:** [Challenge-Amigo-Secreto-ONE](https://github.com/viniromao159/Challenge-Amigo-Secreto-ONE);
+
+**Status:** Finalizado;
+
+**Linguagem:** JavaScript (app.js);
+
+### 3. Funcionalidades desenvolvidas
 
 - Adicionar nomes: Os usuários escreverão o nome de um amigo em um campo de texto e o adicionarão a uma lista visível ao clicar em "Adicionar".
 
@@ -18,10 +30,12 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 
 - Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
 
-### 2. Preparação
+### Licença
 
-**Projeto base:** HTML & CSS fornecido pelo desafio.
-**Repositório:** [Challenge-Amigo-Secreto-ONE](https://github.com/viniromao159/Challenge-Amigo-Secreto-ONE)
+Projeto: 
 
+Por: Challenge Amigo Secreto - ONE
 
+[LinkedIn](https://www.linkedin.com/in/viniciuslromao/) / [GitHub](https://github.com/viniromao159) / [Alura](https://cursos.alura.com.br/user/viniromao159) 
 
+#### Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
