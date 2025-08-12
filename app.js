@@ -1,14 +1,15 @@
 let friends = []
 
-function addFriend() {
-    let name = document.querySelector('#friend').value;
+function adicionarAmigo() {
+    let name = document.querySelector('#amigo').value;
 
     if (name === '') {
-        alert('Por favor, insira um nome!')
+        alert('Por favor, insira um nome válido!')
         return;
     } else {
         friends.push(name);
-        console.log(friends);
+        document.getElementById('amigo').value='';
     }
+
 }
 
