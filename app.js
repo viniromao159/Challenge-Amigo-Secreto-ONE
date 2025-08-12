@@ -7,9 +7,21 @@ function adicionarAmigo() {
         alert('Por favor, insira um nome válido!')
         return;
     } else {
-        friends.push(name);
-        document.getElementById('amigo').value='';
+        if(!friends.includes(name)){
+            friends.push(name);
+            document.getElementById('amigo').value='';
+        } 
     }
+     mostrarAmigos();  
+}
+
+function mostrarAmigos(){
+    let friendList = document.querySelector('#listaAmigos')
+    friendList.innerHTML = '';
+
+    friends.forEach(el => {
+        friendList.innerHTML += `<li>${el}</li>`
+    })
 }
 
 function sortearAmigo() {
@@ -20,7 +32,6 @@ function sortearAmigo() {
          exibirTextoNaTela('resultado', friends[index])
     }
 }
-
 
 function exibirTextoNaTela(tag, texto){
     let campo = document.getElementById(tag);
